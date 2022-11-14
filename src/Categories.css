@@ -1,0 +1,47 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    min-height: 200px;
+    background-color: white;
+    margin: 25px 25px 25px 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 14px;
+    box-shadow: 0px 5px 8px rgb(0 0 0 / 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .category_image {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .category_title {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Mulish", sans-serif;
+    color: black;
+  }
+  .category_description {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 0px;
+    color: #2e2e2e;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  .category:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 480px) {
+    .category:hover {
+      transform: none;
+    }
+  }
+  

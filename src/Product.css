@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 8px rgb(0 0 0 / 0.2);
+  background-color: white;
+  margin: 20px 30px 20px 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.product_info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 10px 0px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.product_rating {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+}
+
+.product_rating > img {
+  width: 20px;
+  height: 20px;
+}
+.product > img {
+  max-height: 280px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 160px;
+  height: 160px;
+}
+
+.product_name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Mulish", sans-serif;
+  color: #4f585e;
+}
+
+.product_price {
+    text-align: left;
+  font-size: 16px;
+  font-weight: bolder;
+  color: darkcyan;
+  padding: 0px 10px 5px 10px;
+}
+
+.product_button {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 30%;
+  min-width: 200px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background: #24aeb1;
+  font-family: Lato;
+  padding: 12px 5px 12px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .product_row {
+    flex-direction: column;
+    padding: 0 30px 0 30px;
+    margin: 0;
+  }
+  .product {
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+
+  }
+
+  .product_info{
+    text-align: center;
+  }
+  .product > img {
+    width: 180px;
+    height: 180px;
+  }
+  .product_name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .product_rating > img {
+    width: 20px;
+    height: 20px;
+  }
+  .product_price {
+    font-size: 19px;
+    text-align: center;
+
+  }
+  .product_rating {
+    justify-content: center;
+  }
+  .product_button {
+    margin-top: 14px;
+    margin-bottom: 18px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 7px 12px 7px;
+  }
+}

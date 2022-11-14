@@ -1,0 +1,81 @@
+.checkout {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  
+  .checkoutBanner {
+    object-fit: cover;
+    width: 45rem;
+    height: 120px;
+  }
+  
+  .checkoutLeft_title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #2c3539;
+  }
+  
+  .checkoutLeft_title_underline {
+    width: 45rem;
+    height: 0.1rem;
+    background: #c0c0c0;
+    margin-bottom: 50px;
+  }
+  
+  .checkoutRight_title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  
+  .checkoutRight_title_underline {
+    width: 45rem;
+    height: 0.1rem;
+    background: #939596;
+    margin-bottom: 50px;
+  }
+  
+  .checkoutLeftEmpty_Title {
+    padding:10px 50px 10px 20px;
+    font-size: 35px;
+  }
+  
+  .checkoutLeftEmpty_content {
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 23px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .checkout {
+      display: flex;
+      flex-direction: column;
+      padding: 5px 10px;
+    }
+    .checkoutLeft_title_underline {
+      width: 9rem;
+      height: 0.2rem;
+      background: #2f8ccb;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+    .checkoutBanner {
+      display: none;
+    }
+    .checkoutLeft_title {
+      font-size: 30px;
+    }
+    .checkoutLeft_SubContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .checkout_right {
+      width: auto;
+    }
+  }
+  

@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap");
+
+.home {
+    margin: 0;
+  }
+  
+  .home_Banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Mulish", sans-serif;
+
+  }
+  
+  .home_Banner > .home_bannerContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: auto;
+    width: 28%;
+  }
+  
+  .home_Banner > .home_bannerContent > .underline {
+    display: none;
+  }
+  .home_Banner > .home_bannerContent > h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .home_Banner > .home_bannerContent > p {
+    display: flex;
+    flex-wrap: wrap;
+    color: #7d7987;
+    font-size: 17px;
+    line-height: 35px;
+  }
+  
+  .home_Banner > .home_bannerImage {
+    margin-right: 100px;
+    margin-top: 20px;
+
+  }
+  .bannerImage{
+    width: 500px;
+    height: 500px;
+
+  }
+  
+  .secondContainerDesc,
+.secondContainerTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondContainer {
+  text-align: center;
+  margin: 10px 20px 20px 20px;
+}
+
+.underline {
+  width: 8rem;
+  height: 0.25rem;
+  background: #2f8ccb;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.secondContainerTitle {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Mulish", sans-serif;
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 40px;
+  padding: 20px 20px 0px 20px;
+  letter-spacing: 0.1rem;
+}
+
+.secondContainerDesc {
+  display: flex;
+  flex-wrap: wrap;
+  color: #7d7987;
+  font-size: 16px;
+  margin: auto;
+}
+
+.covidEssential,
+.devices,
+.nutritionAndVitamins,
+.orderMedicineOnline,
+.skinCare,
+.diabeticCare {
+  width: 400px;
+}
+
+.heading {
+  display: none;
+  text-align: center;
+  margin: 20px;
+}
+
+.heading > .underline {
+  background: #2f8ccb;
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.product_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.category_container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.category_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+/* 
+  justify-content: center;
+  align-items: center; */
+}
+
+
+@media screen and (max-width: 480px) {
+  .home {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .home_Banner > .home_bannerImage {
+    display: none;
+  }
+  .home_Banner > .home_bannerContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4px;
+    width: 100%;
+  }
+
+  .home_Banner > .home_bannerContent > h1 {
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .home_Banner > .home_bannerContent > .underline {
+    display: flex;
+    width: 90px;
+    margin-bottom: 30px;
+  }
+
+  .home_Banner > .home_bannerContent > p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .secondContainer {
+    margin: 0;
+  }
+  .secondContainer > .underline {
+    width: 90px;
+    margin-bottom: 15px;
+  }
+  .secondContainerTitle {
+    font-size: 30px;
+    margin: 20px 2px 10px 2px;
+    padding: 10px 0px 15px 0px;
+  }
+
+  .secondContainerDesc {
+    display: none;
+  }
+
+  .category_container {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .covidEssential,
+  .devices,
+  .nutritionAndVitamins,
+  .orderMedicineOnline,
+  .skinCare,
+  .diabeticCare {
+    width: auto;
+  }
+
+  .category_description {
+    font-size: 15px;
+    color: #7d7987;
+  }
+  .category_image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .category_title {
+    margin-top: 18px;
+    font-size: 25px;
+  }
+
+  .category_title {
+    text-align: center;
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading > .underline {
+    margin-top: 20px;
+    background: #2f8ccb;
+    width: 80px !important;
+    margin-bottom: 15px;
+  }
+  .add {
+    display: none;
+  }
+}

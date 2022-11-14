@@ -1,0 +1,112 @@
+.checkoutProduct {
+    display: flex;
+    padding: 10px 5px 5px 20px;
+    width: 70%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 8px rgb(0 0 0 / 0.2);
+  }
+  
+  .checkoutProduct_image {
+    object-fit: contain;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .checkoutProduct_info {
+    padding-left: 40px;
+  }
+  
+  .checkoutProduct_title {
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    /* font-size: 24px; */
+  
+    font-family: "Mulish", sans-serif;
+    color: black;
+  }
+  .checkoutProduct_rating {
+    margin-top: 0px;
+  }
+  .checkoutProduct_rating > img {
+    width: 17px;
+    height: 17px;
+  }
+  
+  .checkoutProduct_price {
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .checkoutProduct_button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  
+    width: 33%;
+    min-width: 200px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: #24aeb1;
+    font-family: Lato;
+    padding: 12px 8px 12px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .checkoutProduct {
+      width: 90%;
+      margin: 15px 10px 10px 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 10px 10px 10px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .checkoutProduct_info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  
+    .checkoutProduct_image {
+      object-fit: contain;
+      width: 180px;
+      height: 180px;
+    }
+    .checkoutProduct_title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+    .checkoutProduct_price {
+      font-size: 19px;
+    }
+    .checkoutProduct_rating {
+      margin-top: 10px;
+      justify-content: center;
+    }
+    .checkoutProduct_button {
+      padding: 13px 13px;
+      font-size: 16px;
+      margin-top: 13px;
+      margin-bottom: 5px;
+    }
+  }
+  

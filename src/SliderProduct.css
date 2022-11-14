@@ -1,0 +1,106 @@
+.slideProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: white;
+    margin: 60px 30px 60px 30px;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 0px 5px 8px rgb(0 0 0 / 0.2);
+  }
+  
+  .slideProduct_name {
+    /* color: #4f585e; */
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .slideProduct_rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  
+  .slideProduct_rating > img {
+    width: 20px;
+    height: 20px;
+  }
+  .slideProduct > img {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .slideProduct_price {
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    color: darkcyan;
+  }
+  
+  .slideProduct_button {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    background: #24aeb1;
+    /* font-family: Lato; */
+    min-width: 150px;
+    padding: 12px 22px 12px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .slideProduct {
+      text-align: center;
+margin: 40px 30px 70px 30px;    }
+  
+    .slideProduct_name {
+      text-align: center;
+      /* color: #4f585e; */
+      color: #5f5f5f;
+      font-size: 18px;
+      margin-top: 16px;
+      margin-bottom: 12px;
+    }
+    .slideProduct_rating {
+      display: flex;
+      margin-bottom: 12px;
+      justify-content: center;
+    }
+  
+    .slideProduct_rating > img {
+      width: 20px;
+      height: 20px;
+    }
+    .slideProduct > img {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .slideProduct_price {
+      font-size: 20px;
+      margin-bottom: 12px;
+      font-weight: bolder;
+      color: darkcyan;
+    }
+  
+    .slideProduct_button {
+      font-size: 16px;
+      font-weight: 500;
+      color: white;
+      border: none;
+      text-transform: uppercase;
+      background: #24aeb1;
+      font-family: Lato;
+      min-width: 200px;
+      padding: 10px 22px 10px 22px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+  

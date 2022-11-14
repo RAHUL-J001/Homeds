@@ -1,0 +1,10 @@
+.bannerAdd {
+    border: 1px solid #4f585e;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .bannerAdd > img {
+    width: 100%;
+  }
+  

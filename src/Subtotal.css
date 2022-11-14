@@ -1,0 +1,67 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+    width: 450px;
+    height: 150px;
+    padding: 10px 10px 20px 10px;
+    background-color: #fcfbfb;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 8px rgb(0 0 0 / 0.2);
+    color: #2c3539;
+  }
+  
+  .subtotal_title {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .no_of_item {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .subtotal_gift {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .proceedButton {
+    padding: 15px 5px;
+    margin: 10px 15px 5px 15px;
+    background-color: #ffae42;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+    .subtotal {
+      width: auto;
+      margin: 40px 10px 30px 10px;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 20px;
+      width: auto;
+    }
+    .subtotal_title {
+      font-size: 22px;
+    }
+    .proceedButton {
+      padding: 10px 20px;
+      font-weight: 600;
+      font-size: 18px;
+      border: 1px solid;
+      margin-top: 7px;
+    }
+  }
+  
